@@ -1,0 +1,61 @@
+# ── Virtual Environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Python Cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ── Test / Coverage Cache ─────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.coveragerc
+
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ── Build / Distribution ──────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── IDE & OS ──────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Generated / Temporary files ───────────────────────────────────────────────
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+tmp/
+temp/
+
+# ── Sensitive Data ────────────────────────────────────────────────────────────
+# Never commit real email samples or PII
+data/raw/*.eml
+data/raw/*.mbox
+data/raw/*.msg
+data/processed/*.json
+data/samples/*.eml
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── MyPy ─────────────────────────────────────────────────────────────────────
+.mypy_cache/

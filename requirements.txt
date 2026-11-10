@@ -1,0 +1,13 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Multi-Agent AI Phishing Email Detector
+# requirements.txt — Task 1: Initial scaffold only
+#
+# NOTE: ML, NLP, agent, database, and frontend dependencies are NOT included
+# here. They will be added in subsequent tasks after approval.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# No runtime dependencies yet — added incrementally per task approval.
+
+# ── Development / Testing (safe to install now) ───────────────────────────────
+# pytest          — test runner (added when tests are written in Task N)
+# python-dotenv   — .env file loader (added when configuration is wired in Task N)
