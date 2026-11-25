@@ -22,6 +22,9 @@ coverage.xml
 .env
 *.env
 !.env.example
+credentials*.json
+token*.json
+secrets/
 
 # ── Build / Distribution ──────────────────────────────────────────────────────
 dist/
@@ -47,11 +50,16 @@ temp/
 
 # ── Sensitive Data ────────────────────────────────────────────────────────────
 # Never commit real email samples or PII
-data/raw/*.eml
-data/raw/*.mbox
-data/raw/*.msg
-data/processed/*.json
-data/samples/*.eml
+data/dev/
+data/raw/
+data/processed/
+data/samples/
+*.eml
+*.mbox
+*.msg
+*.tar.bz2
+*.tar.gz
+*.zip
 
 # ── Jupyter ───────────────────────────────────────────────────────────────────
 .ipynb_checkpoints/
@@ -59,3 +67,15 @@ data/samples/*.eml
 
 # ── MyPy ─────────────────────────────────────────────────────────────────────
 .mypy_cache/
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+
+# API
+api/__pycache__/
+
+# OAuth tokens
+token.json
+secrets/
+

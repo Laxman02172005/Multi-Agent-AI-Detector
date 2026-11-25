@@ -1,0 +1,411 @@
+{
+  "test_samples": 200,
+  "standard_accuracy": 0.99,
+  "standard_precision": 0.98,
+  "standard_recall": 0.98,
+  "standard_macro_f1": 0.9867,
+  "roc_auc": 0.9999,
+  "brier_score": 0.0141,
+  "abstention_thresholds": {
+    "abstain_low": 0.25,
+    "abstain_high": 0.6
+  },
+  "abstention_rate": 0.015,
+  "coverage": 0.985,
+  "retained_samples": 197,
+  "abstained_samples": 3,
+  "selective_accuracy": 1.0,
+  "selective_precision": 1.0,
+  "selective_recall": 1.0,
+  "selective_macro_f1": 1.0,
+  "error_analysis": {
+    "false_positives_count": 0,
+    "false_negatives_count": 0,
+    "abstained_count": 3,
+    "false_positives": [],
+    "false_negatives": [],
+    "abstained_samples": [
+      {
+        "sample_id": "DEV_HAM_000739",
+        "assigned_label": "ham_hard",
+        "source_category": "hard_ham",
+        "source_year": "",
+        "calibrated_prob": 0.5484
+      },
+      {
+        "sample_id": "DEV_PHISH_000197",
+        "assigned_label": "phishing",
+        "source_category": "phishing",
+        "source_year": "2021",
+        "calibrated_prob": 0.4021
+      },
+      {
+        "sample_id": "DEV_PHISH_000149",
+        "assigned_label": "phishing",
+        "source_category": "phishing",
+        "source_year": "2015",
+        "calibrated_prob": 0.5924
+      }
+    ]
+  },
+  "validation_sweep": [
+    {
+      "abstain_low": 0.15,
+      "abstain_high": 0.6,
+      "coverage": 0.98,
+      "retained_samples": 196,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.15,
+      "abstain_high": 0.65,
+      "coverage": 0.97,
+      "retained_samples": 194,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.15,
+      "abstain_high": 0.7,
+      "coverage": 0.965,
+      "retained_samples": 193,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.15,
+      "abstain_high": 0.75,
+      "coverage": 0.95,
+      "retained_samples": 190,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.15,
+      "abstain_high": 0.8,
+      "coverage": 0.925,
+      "retained_samples": 185,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.15,
+      "abstain_high": 0.85,
+      "coverage": 0.89,
+      "retained_samples": 178,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.2,
+      "abstain_high": 0.6,
+      "coverage": 0.99,
+      "retained_samples": 198,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.2,
+      "abstain_high": 0.65,
+      "coverage": 0.98,
+      "retained_samples": 196,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.2,
+      "abstain_high": 0.7,
+      "coverage": 0.975,
+      "retained_samples": 195,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.2,
+      "abstain_high": 0.75,
+      "coverage": 0.96,
+      "retained_samples": 192,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.2,
+      "abstain_high": 0.8,
+      "coverage": 0.935,
+      "retained_samples": 187,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.2,
+      "abstain_high": 0.85,
+      "coverage": 0.9,
+      "retained_samples": 180,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.25,
+      "abstain_high": 0.6,
+      "coverage": 0.995,
+      "retained_samples": 199,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.25,
+      "abstain_high": 0.65,
+      "coverage": 0.985,
+      "retained_samples": 197,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.25,
+      "abstain_high": 0.7,
+      "coverage": 0.98,
+      "retained_samples": 196,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.25,
+      "abstain_high": 0.75,
+      "coverage": 0.965,
+      "retained_samples": 193,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.25,
+      "abstain_high": 0.8,
+      "coverage": 0.94,
+      "retained_samples": 188,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.25,
+      "abstain_high": 0.85,
+      "coverage": 0.905,
+      "retained_samples": 181,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.3,
+      "abstain_high": 0.6,
+      "coverage": 0.995,
+      "retained_samples": 199,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.3,
+      "abstain_high": 0.65,
+      "coverage": 0.985,
+      "retained_samples": 197,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.3,
+      "abstain_high": 0.7,
+      "coverage": 0.98,
+      "retained_samples": 196,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.3,
+      "abstain_high": 0.75,
+      "coverage": 0.965,
+      "retained_samples": 193,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.3,
+      "abstain_high": 0.8,
+      "coverage": 0.94,
+      "retained_samples": 188,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.3,
+      "abstain_high": 0.85,
+      "coverage": 0.905,
+      "retained_samples": 181,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.35,
+      "abstain_high": 0.6,
+      "coverage": 0.995,
+      "retained_samples": 199,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.35,
+      "abstain_high": 0.65,
+      "coverage": 0.985,
+      "retained_samples": 197,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.35,
+      "abstain_high": 0.7,
+      "coverage": 0.98,
+      "retained_samples": 196,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.35,
+      "abstain_high": 0.75,
+      "coverage": 0.965,
+      "retained_samples": 193,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.35,
+      "abstain_high": 0.8,
+      "coverage": 0.94,
+      "retained_samples": 188,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.35,
+      "abstain_high": 0.85,
+      "coverage": 0.905,
+      "retained_samples": 181,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.4,
+      "abstain_high": 0.6,
+      "coverage": 0.995,
+      "retained_samples": 199,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.4,
+      "abstain_high": 0.65,
+      "coverage": 0.985,
+      "retained_samples": 197,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.4,
+      "abstain_high": 0.7,
+      "coverage": 0.98,
+      "retained_samples": 196,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.4,
+      "abstain_high": 0.75,
+      "coverage": 0.965,
+      "retained_samples": 193,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.4,
+      "abstain_high": 0.8,
+      "coverage": 0.94,
+      "retained_samples": 188,
+      "selective_accuracy": 1.0
+    },
+    {
+      "abstain_low": 0.4,
+      "abstain_high": 0.85,
+      "coverage": 0.905,
+      "retained_samples": 181,
+      "selective_accuracy": 1.0
+    }
+  ],
+  "model_weights_audit": {
+    "top_phishing_features": [
+      {
+        "feature_name": "header_dkim_claim_count",
+        "modality": "header",
+        "weight": 1.1289
+      },
+      {
+        "feature_name": "header_authserv_id_count",
+        "modality": "header",
+        "weight": 1.0677
+      },
+      {
+        "feature_name": "header_spf_claim_count",
+        "modality": "header",
+        "weight": 0.7537
+      },
+      {
+        "feature_name": "text_has_html",
+        "modality": "text",
+        "weight": 0.5397
+      },
+      {
+        "feature_name": "header_dkim_signature_present_without_pass",
+        "modality": "header",
+        "weight": 0.5085
+      },
+      {
+        "feature_name": "text_generic_greeting_present",
+        "modality": "text",
+        "weight": 0.4487
+      },
+      {
+        "feature_name": "text_has_hidden_text",
+        "modality": "text",
+        "weight": 0.448
+      },
+      {
+        "feature_name": "header_dkim_signature_header_present",
+        "modality": "header",
+        "weight": 0.421
+      },
+      {
+        "feature_name": "header_content_type_is_multipart",
+        "modality": "header",
+        "weight": 0.4119
+      },
+      {
+        "feature_name": "url_has_excessive_subdomains",
+        "modality": "url",
+        "weight": 0.4057
+      }
+    ],
+    "top_legitimate_features": [
+      {
+        "feature_name": "url_sender_domain_matching_url_ratio",
+        "modality": "url",
+        "weight": -0.555
+      },
+      {
+        "feature_name": "header_has_loopback_ip_in_external_hop",
+        "modality": "header",
+        "weight": -0.5018
+      },
+      {
+        "feature_name": "text_word_count",
+        "modality": "text",
+        "weight": -0.3603
+      },
+      {
+        "feature_name": "header_message_id_domain_mismatch",
+        "modality": "header",
+        "weight": -0.3541
+      },
+      {
+        "feature_name": "text_body_entropy",
+        "modality": "text",
+        "weight": -0.3489
+      },
+      {
+        "feature_name": "text_has_plain_text",
+        "modality": "text",
+        "weight": -0.2667
+      },
+      {
+        "feature_name": "text_character_count",
+        "modality": "text",
+        "weight": -0.2517
+      },
+      {
+        "feature_name": "url_http_url_count",
+        "modality": "url",
+        "weight": -0.2301
+      },
+      {
+        "feature_name": "url_total_url_count",
+        "modality": "url",
+        "weight": -0.2217
+      },
+      {
+        "feature_name": "header_received_hop_count",
+        "modality": "header",
+        "weight": -0.2213
+      }
+    ]
+  }
+}

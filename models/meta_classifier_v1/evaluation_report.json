@@ -1,0 +1,18 @@
+{
+  "test_samples": 15,
+  "standard_accuracy": 1.0,
+  "roc_auc": 1.0,
+  "brier_score": 0.0112,
+  "abstention_thresholds": {
+    "abstain_low": 0.35,
+    "abstain_high": 0.65
+  },
+  "abstention_rate": 0.0,
+  "coverage": 1.0,
+  "retained_samples": 15,
+  "abstained_samples": 0,
+  "selective_accuracy": 1.0,
+  "selective_precision": 1.0,
+  "selective_recall": 1.0,
+  "selective_f1": 1.0
+}
